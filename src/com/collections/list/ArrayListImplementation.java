@@ -1,6 +1,5 @@
 package com.collections.list;
 
-import javax.xml.transform.stream.StreamSource;
 import java.util.ArrayList;
 
 public class ArrayListImplementation {
