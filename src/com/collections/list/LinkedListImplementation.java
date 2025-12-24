@@ -3,10 +3,8 @@ package com.collections.list;
 import java.util.LinkedList;
 
 public class LinkedListImplementation {
-
-    {
-
-        LinkedList list=new LinkedList();
+    public static void main(String[] args) {
+        LinkedList<Integer> list=new LinkedList<>();
         list.add(10);
         list.add(20);
         list.add(1, 15);
@@ -15,7 +13,6 @@ public class LinkedListImplementation {
         list.offer(30);
         list.offerFirst(1);
         list.offerLast(35);
-
         System.out.println(list.get(2));
         System.out.println(list.getFirst());
         System.out.println(list.getLast());
