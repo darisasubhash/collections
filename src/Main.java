@@ -1,7 +1,10 @@
+import com.collections.map.HashMapImplementation;
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.printf("Hello and welcome!");
+
+        HashMapImplementation map =new HashMapImplementation();
+        map.runMethods();
     }
 }
