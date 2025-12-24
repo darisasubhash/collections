@@ -1,17 +1,13 @@
-package com.collection.set;
-
+package com.collections.set;
 import java.util.HashSet;
 
 public class HashSetImplementation {
-
-    {
-        HashSet set=new HashSet();
-
+    public static void main(String[] args) {
+        HashSet<Integer> set=new HashSet<>();
         set.add(10);
         set.add(30);
         set.add(20);
         set.add(10);
-        set.add(null);
         System.out.println(set.size());
         System.out.println(set.isEmpty());
         System.out.println(set.contains(20));
@@ -26,6 +22,5 @@ public class HashSetImplementation {
         set2.add(60);
         set.retainAll(set2);
         set.clear();
-
     }
 }
