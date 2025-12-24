@@ -1,5 +1,4 @@
 package com.collections.list;
-
 import java.util.ArrayList;
 
 public class ArrayListImplementation {
