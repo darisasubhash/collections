@@ -1,10 +1,11 @@
 import com.collections.map.HashMapImplementation;
+import com.collections.map.LinkedHashMapImplementation;
 
 public class Main {
     public static void main(String[] args) {
 
 
-        HashMapImplementation map =new HashMapImplementation();
+        LinkedHashMapImplementation map=new LinkedHashMapImplementation();
         map.runMethods();
     }
 }
